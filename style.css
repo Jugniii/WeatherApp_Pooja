@@ -12,6 +12,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: url("https://img.freepik.com/free-photo/wheat-field-rural-area-cloudy-sky_181624-45332.jpg?w=996&t=st=1707978908~exp=1707979508~hmac=284c6d51df4a72b04499d22f63e28888c05fc57afdf7f0aa720ab67c08807cdc");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .container{
 	height: 350px;
@@ -19,4 +23,50 @@
 	box-shadow: 0px 0px 20px grey;
 	border-radius: 30px;
 	padding: 20px;
+	background: transparent;
+	backdrop-filter: blur(20px);
+}
+.heading{
+	color: royalblue;
+	font-family: Arial Black;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+input[type="text"]{
+	height: 30px;
+	width: 180px;
+	padding-left: 10px;
+	outline: none;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.srch_btn{
+	border: none;
+	background-color: transparent;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+#city{
+	color: orangered;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+.measurement{
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.headings{
+	color: royalblue;
+	font-family: Arial Black;
+	font-size: 12px;
 }
